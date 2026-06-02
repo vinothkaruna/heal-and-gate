@@ -20,7 +20,7 @@ app = Flask(__name__)
 # ── Toggle this to simulate the developer renaming the button ─────────────────
 # False = normal state    (test passes)
 # True  = broken state    (test breaks → healer fires)
-UI_BROKEN = True
+UI_BROKEN = False
 
 HTML = """<!DOCTYPE html>
 <html lang="en">
